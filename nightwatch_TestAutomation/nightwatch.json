@@ -1,0 +1,19 @@
+{
+  "src_folders" : ["tests"],
+  "selenium" : {
+    "start_process": true,
+    "server_path": "bin/selenium-server-standalone-3.141.59.jar",
+    "cli_args": {
+            "webdriver.chrome.driver": "bin/chrome/chromedriver.exe"
+	}
+  },
+  "test_settings" : {
+    "default" : {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+		"javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    }
+  }
+}
