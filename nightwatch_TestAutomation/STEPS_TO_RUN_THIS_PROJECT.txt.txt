@@ -1,0 +1,6 @@
+1) Install Node.js  - https://nodejs.org/en/
+2) once done , go to command prompt  and  type : npm install npm -g
+3) once this is successful ,  type npm install nightwatch -g --sav-dev
+4) no go to the project folder in command prompt , and run the test : nightwatch --test google_login.js
+
+5) the test will run a test case checking the error message for an invalid login
